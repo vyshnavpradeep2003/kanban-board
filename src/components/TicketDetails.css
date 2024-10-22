@@ -1,0 +1,24 @@
+/* src/components/TicketDetails.css */
+.ticket-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 50%;
+  }
+  
+  .ticket-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .ticket-details button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .ticket-details button:hover {
+    background-color: #bbb;
+  }
+  

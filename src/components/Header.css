@@ -1,0 +1,65 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+  }
+  
+  .left-header {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .right-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .display-button, .add-button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .display-button img, .add-button img {
+    margin-right: 5px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown button {
+    padding: 5px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown button:hover {
+    background-color: #ddd;
+  }
+  

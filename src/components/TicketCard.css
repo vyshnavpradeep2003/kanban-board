@@ -1,0 +1,24 @@
+/* src/components/TicketCard.css */
+.ticket-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .ticket-card h3 {
+    font-size: 1.2em;
+  }
+  
+  .ticket-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ticket-info img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
